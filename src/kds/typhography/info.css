@@ -1,0 +1,5 @@
+.info{
+    font-weight: bold;
+    color: var(--color-secondary-text);
+    font-style: italic;
+}

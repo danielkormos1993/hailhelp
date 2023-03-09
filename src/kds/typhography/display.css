@@ -1,0 +1,7 @@
+.display{
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}

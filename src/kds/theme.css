@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-display: block;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('./fonts/montserrat400.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-display: block;
+    src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'), url('./fonts/montserrat800.woff2') format('woff2');
+    font-weight: 800;
+}
+
+:root{
+
+    font-family: 'Montserrat';
+
+    --color-white: rgb(237, 242, 244);
+    --color-black: rgb(18, 18, 18);
+    --color-grey: rgb(133, 133, 133);
+    --color-lightgrey: rgb(204, 204, 204);
+    --color-darkgrey: rgb(51, 51, 51);
+    --color-red: rgb(204, 46, 40);
+    --color-yellow: rgb(231, 113, 27);
+    --color-green: rgb(59, 123, 43);
+    --color-blue: rgb(0,191,255);
+
+    --color-primary: var(--color-blue);
+    --color-primary-bg: var(--color-darkgrey);
+    --color-secondary-bg: var(--color-black);
+    --color-tertiary-bg: var(--color-grey);
+    --color-primary-text: var(--color-white);
+    --color-secondary-text: var(--color-lightgrey);
+    --color-tertiary-text: var(--color-grey);
+
+    --color--overlay: rgba(0, 0, 0, .72);
+
+    background-color: var(--color-primary-bg);
+    color: var(--color-primary-text); 
+    
+}

@@ -1,0 +1,23 @@
+@import url('./display.css');
+@import url('./link.css');
+@import url('./tag.css');
+@import url('./info.css');
+@import url('./size.css');
+
+:root{
+
+    --default-font-size: clamp(16px, 15.065px + 0.259vw, 20px);
+
+    font-size: var(--default-font-size);
+    line-height: 1.66;
+    -webkit-text-size-adjust: none;
+
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+p.kds{
+    max-width: 70ch;
+}

@@ -1,0 +1,8 @@
+img, video{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    object-position: center center;
+}

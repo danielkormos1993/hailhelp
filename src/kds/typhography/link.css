@@ -1,0 +1,10 @@
+.link{
+    transition: filter 250ms ease;
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.link:hover,
+.link:focus{
+    filter: brightness(125%);
+}

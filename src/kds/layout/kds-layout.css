@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.kds-layout{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.kds-layout > header,
+.kds-layout > footer{
+    width: 100%;
+    display: block;
+}
+
+.kds-layout > main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.kds-layout > main > section{
+    padding: var(--space-xxl) 0;
+}
+
+.kds-layout > main > section:first-of-type{
+    flex: 1;
+}
