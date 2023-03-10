@@ -28,7 +28,7 @@ export default function HailEvent({data, onClick}){
 
             <div className="kds-card_footer">
 
-                <div className="flex wrap" style={{gap: 'var(--space-s)'}}>
+                <div className="flex wrap" style={{gap: 'var(--space-s)', rowGap: 0}}>
 
                     <span style={{color: 'var(--color-secondary-text)'}}>Hail size:</span>
 

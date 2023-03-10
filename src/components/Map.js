@@ -1,11 +1,26 @@
 import { useState } from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 import { Spin } from 'antd';
+import createStyle from '../kds/libs/createStyle';
 
 import HailEvent from './HailEvent';
 import EventCircle from './Map/EventCircle';
 import EventInfo from './Map/EventInfo';
 import { useEffect } from 'react';
+
+createStyle(`
+    .gm-style, .gm-style-iw{
+        font: inherit !important;
+        font-weight: inherit !important;
+        font-size: inherit !important;
+    }
+    .gm-style-iw{
+        max-width: none !important;
+    }
+    .gm-style .kds-card{
+        min-width: 280px;
+    }
+`);
 
 const initialCenter = {
     lat: 46.511667,

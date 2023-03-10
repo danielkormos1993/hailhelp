@@ -9,6 +9,7 @@ export default function EventInfo({eventData, onCloseClick, Component}){
                 lng: eventData.coordinates.longitude
             }}
             onCloseClick={onCloseClick}
+            style={{ minWidth: '250px' }}
         >
             <Component data={eventData} />
         </InfoWindowF>
